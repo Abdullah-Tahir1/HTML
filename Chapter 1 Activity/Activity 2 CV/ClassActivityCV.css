@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to left, beige 0%, beige 85%, lemonchiffon 85%, lemonchiffon 100%);
+}
+img.pfp {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin: 10px;
+  }
+  h1{
+      float: left;
+      font-size: 90px;
+  }
+  img.about {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+  }
+  p.info{
+    text-align: center;
+  }
+  img.gmail{
+    width: 20px;
+    height: 15px;
+    align-items: center;
+  }
+  img.insta{
+    width: 20px;
+    height: 17px;
+    align-items: center;
+  }
+  img.snap{
+    width: 20px;
+    height: 17px;
+    align-items: center;
+  }
+  img.twitter{
+    width: 30px;
+    height: 17px;
+    align-items: center;
+  }
+  a{
+    color: black;
+  }
+  img.education {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+  }

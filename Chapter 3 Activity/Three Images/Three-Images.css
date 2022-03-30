@@ -1,0 +1,89 @@
+#J{
+    width: 70%;
+    height: 70%;
+    align-self: center;
+    margin-left: 16%;
+}
+img.blur{
+    filter: blur(10px);
+    box-shadow: 5px 5px 5px #efe9dd;
+}
+img.saturate{
+    filter: saturate(300%);
+    box-shadow: 5px 5px 5px #ff6a46;
+}
+img.grayscale{
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 5px white;
+}
+p{
+    font-style: italic;
+    text-align: right;
+    margin-right: 14%;
+    margin-bottom: 5%;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow: visible;
+    padding: 0%;
+    margin: 0%;
+}
+@keyframes picture-1{
+    1% {filter: blur(10px);}
+    9% {box-shadow: 5px 5px 5px #efe9dd,-5px -5px 5px #efe9dd;}
+    10% {filter: blur(10px);}
+    20% {filter: blur(7px);}
+    30% {filter: blur(5px);}
+    40% {filter: blur(2px);}
+    50% {filter: none;}
+    60% {filter: none;}
+    65% {filter: none;}
+    70% {box-shadow: 5px 5px 5px #efe9dd,-5px -5px 5px #efe9dd;}
+    80% {filter: blur(2px);}
+    90% {filter: blur(5px);}
+    100% {filter: blur(7px);}
+  }
+  a img.blur:hover{
+    animation-name: picture-1;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+  @keyframes picture-2{
+    9% {box-shadow: 5px 5px 5px #c57866,-5px -5px 5px #c57866;}
+    10% {filter: saturate(300%);}
+    20% {filter: saturate(250%);}
+    30% {filter: saturate(200%);}
+    40% {filter: saturate(150%);}
+    50% {filter: none;}
+    60% {filter: none;}
+    65% {filter: none;}
+    70% {box-shadow: 5px 5px 5px #ff6a46,-5px -5px 5px #ff6a46;}
+    80% {filter: saturate(150%);}
+    90% {filter: saturate(200%);}
+    100% {filter: saturate(250%);}
+  }
+  a img.saturate:hover{
+    animation-name: picture-2;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+@keyframes picture-3{
+    9% {box-shadow: 5px 5px 5px white,-5px -5px 5px white;}
+    10% {filter: grayscale(100%);}
+    20% {filter: grayscale(66%);}
+    30% {filter: grayscale(33%);}
+    40% {filter: none;}
+    50% {filter: none;}
+    60% {filter: none;}
+    65% {filter: none;}
+    70% {box-shadow: 5px 5px 5px #a89986,-5px -5px 5px #a89986;}
+    80% {filter: grayscale(33%);}
+    90% {filter: grayscale(66%);}
+    100% {filter: grayscale(100%);}
+  }
+  a img.grayscale:hover{
+    animation-name: picture-3;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+  }

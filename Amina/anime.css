@@ -1,0 +1,383 @@
+﻿*{
+    margin:3px;
+    padding:3px;
+}
+ul li{
+    list-style:none;
+    display:inline-block;
+    float:left;
+}
+ul li a{
+    text-decoration:none;
+    display:block;
+}
+div.menu{
+    position: fixed;
+    background-color: black;
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 80px; 
+    z-index: 999;     
+}
+body {
+    background-image: url("Background.gif");
+    background-repeat:repeat;
+}
+.button1 {
+    background-color: darkorange;
+    color: white;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 20px;
+    color: orangered;
+    border: solid 2px orangered;
+    border-radius: 40px;
+    padding: 10px 20px;
+    transition-duration: 200ms;
+    -webkit-animation-duration: 200ms;
+}
+.button1:hover {
+    background-color: darkorange;
+    color: ghostwhite;
+}
+.button{
+    font-family:"proxima nova";
+    font-weight:100;
+    font-size:20px;
+    color:orangered;
+    border:solid 2px orangered;
+    border-radius:40px;
+    padding:10px 20px;
+    transition-duration:200ms;
+    -webkit-animation-duration:200ms;
+}
+.button:hover{
+    background-color:darkorange;
+    color:ghostwhite;
+}
+.justification{
+    margin-left:500px;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.rating{
+    font-size:20px;
+    color:white;
+}
+.rating b{
+    margin-left:600px;
+}
+.star {
+    color: orange;
+}
+
+a.link {
+    color: white;
+    text-decoration: none;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: 100;
+    color: red;
+    border: solid 2px red;
+    border-radius: 20px;
+    padding: 7px 7px;
+    line-height:50px;
+    transition-duration: 200ms;
+    -webkit-animation-duration: 200ms;
+}
+
+a.link:hover {
+    color: ghostwhite;
+    background-color:red;
+}
+h2.headings {
+    color: darkorange;
+    text-align: center;
+}
+
+p.text {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    font-size:20px;
+}
+/*tanjiro*/
+table{
+    display:inline-table;
+}
+
+table.tant {
+    border: 5px solid grey;
+    border-radius: 18px;
+    margin-left:100px;
+}
+.tanjiro{
+    width: 230px;
+    height: 250px;
+}
+tr {
+    border: 5px solid black;
+}
+td {
+    border: 5px solid black;
+}
+td a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    margin-left:50px;
+}
+td a:hover{
+    color:red;
+}
+th {
+    border: 5px solid black;
+}
+
+/*zenitsu*/
+table.zent {
+    border: 5px solid grey;
+    border-radius: 18px;
+    margin-left:100px;
+}
+
+.zenitsu {
+    width: 230px;
+    height: 250px;
+}
+
+tr {
+    border: 5px solid black;
+}
+
+td {
+    border: 5px solid black;
+}
+
+    td a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+
+        td a:hover {
+            color: red;
+        }
+
+th {
+    border: 5px solid black;
+}
+/*Inosuke*/
+table.inot {
+    border: 5px solid grey;
+    border-radius: 18px;
+    margin-left:100px;
+}
+
+.inosuke {
+    width: 230px;
+    height: 250px;
+}
+
+tr {
+    border: 5px solid black;
+}
+
+td {
+    border: 5px solid black;
+}
+
+    td a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+
+        td a:hover {
+            color: red;
+        }
+
+th {
+    border: 5px solid black;
+}
+/*Nezuko*/
+table.nezt {
+    border: 5px solid grey;
+    border-radius: 18px;
+    margin-left: 300px;
+}
+
+.nezuko {
+    width: 230px;
+    height: 250px;
+}
+
+tr {
+    border: 5px solid black;
+}
+
+td {
+    border: 5px solid black;
+}
+
+    td a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+
+        td a:hover {
+            color: red;
+        }
+
+th {
+    border: 5px solid black;
+}
+/*Muzan*/
+table.muzt {
+    border: 5px solid grey;
+    border-radius: 18px;
+    margin-left: 100px;
+}
+
+.muzan {
+    width: 230px;
+    height: 250px;
+}
+
+tr {
+    border: 5px solid black;
+}
+
+td {
+    border: 5px solid black;
+}
+
+    td a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+
+        td a:hover {
+            color: red;
+        }
+
+th {
+    border: 5px solid black;
+}
+.voice{
+    color:orangered;
+}
+table.casting{
+    color:white;
+    text-align:center;
+    font-size:20px;
+    margin-left:480px;
+}
+.season1{
+    margin-left:40px;
+    width:200px;
+}
+.s1text{
+    color:white;
+    font-size:20px;
+    text-align:center;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    line-height:50px;
+    margin-left:auto;
+    color: red;
+    border: solid 2px red;
+    border-radius: 20px;
+    padding: 7px 7px;
+    transition-duration: 200ms;
+    -webkit-animation-duration: 200ms;
+}
+a.link1:hover {
+    color: ghostwhite;
+    background-color: red;
+}
+.movie {
+    margin-left: 40px;
+    width: 200px;
+}
+.movietext {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.season2 {
+    margin-left: 40px;
+    width: 200px;
+}
+
+.s2text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.ova {
+    margin-left: 40px;
+    width: 200px;
+}
+
+.ovatext {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+div.footer{
+    bottom: 0px; 
+    left: 0px; 
+    width: 1903px; 
+    height: 80px; 
+    z-index: 999; 
+    background-color: #313131; 
+    position: relative;
+}
+img.twitter{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    display: inline;
+}
+img.insta{
+    width: 35px;
+    height: 35px;
+    padding-left: 1px;
+    padding-bottom: 10px;
+}
+img.youtube{
+    width: 36px;
+    height: 36px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+img.facebook{
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+table.footer{
+    margin-left:30%; margin-right:350px;
+    border: #313131;
+}
+td.footer{
+    border: 0px solid #313131;
+}

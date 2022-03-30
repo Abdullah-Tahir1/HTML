@@ -1,0 +1,125 @@
+html {
+  background-image: url("Image/Background.jpg");
+}
+#Heading {
+  text-align: center;
+  background-color: white;
+  color: #e72f52;
+  font-weight: 601;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Soundboard {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  width: 17%;
+  height: 8%;
+  margin-left: 1.5%;
+  display: inline-block;
+  margin-top: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a #Soundboard:hover {
+  background-color: #e72f52;
+  transform: scale(1.1);
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  transition: 200ms;
+  animation-name: Transition;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes Transition {
+  0% {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  50% {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+  }
+  100% {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
+.Active-1 {
+  animation-name: Active;
+  animation-duration: 1.5s;
+}
+.Active-2 {
+  animation-name: Active;
+  animation-duration: 0.5s;
+}
+.Active-3 {
+  animation-name: Active;
+  animation-duration: 1.02s;
+}
+.Active-4 {
+  animation-name: Active;
+  animation-duration: 1.38s;
+}
+.Active-5 {
+  animation-name: Active;
+  animation-duration: 1.49s;
+}
+.Active-6 {
+  animation-name: Active;
+  animation-duration: 1.91s;
+}
+.Active-7 {
+  animation-name: Active;
+  animation-duration: 2.8s;
+}
+.Active-8 {
+  animation-name: Active;
+  animation-duration: 1.07s;
+}
+.Active-9 {
+  animation-name: Active;
+  animation-duration: 2.25s;
+}
+@keyframes Active {
+  0% {
+    background-image: linear-gradient(to right, #e72f52 0%, white 100%);
+  }
+  10% {
+    background-image: linear-gradient(to right, #e72f52 10%, white 100%);
+  }
+  20% {
+    background-image: linear-gradient(to right, #e72f52 20%, white 100%);
+  }
+  30% {
+    background-image: linear-gradient(to right, #e72f52 30%, white 100%);
+  }
+  40% {
+    background-image: linear-gradient(to right, #e72f52 40%, white 100%);
+  }
+  50% {
+    background-image: linear-gradient(to right, #e72f52 50%, white 100%);
+  }
+  60% {
+    background-image: linear-gradient(to right, #e72f52 60%, white 100%);
+  }
+  70% {
+    background-image: linear-gradient(to right, #e72f52 70%, white 100%);
+  }
+  80% {
+    background-image: linear-gradient(to right, #e72f52 80%, white 100%);
+  }
+  90% {
+    background-image: linear-gradient(to right, #e72f52 90%, white 100%);
+  }
+  100% {
+    background-image: linear-gradient(to right, #e72f52 100%, white 1000%);
+  }
+}

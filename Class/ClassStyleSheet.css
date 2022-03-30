@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: lightpink;
+}
+#id1 {
+  font-style: italic;
+  color: aquamarine;
+}
+.class1 {
+  font-style: unset;
+  color: cyan;
+}
+div,
+p {
+  color: rgb(255, 255, 255);
+}

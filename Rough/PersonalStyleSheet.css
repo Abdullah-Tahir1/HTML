@@ -1,0 +1,9 @@
+p {
+  background-color: burlywood;
+}
+p.class1 {
+  background-color: darksalmon;
+}
+p#id1 {
+  background-color: lemonchiffon;
+}

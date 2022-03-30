@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+img{
+  width: 250px;
+  height: 250px;
+}
+td{
+  color: white;
+  text-align: center;
+}
+table{
+  border: 3px solid white;
+}
+tr{
+  border: 3px solid white;
+}

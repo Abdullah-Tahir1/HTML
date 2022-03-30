@@ -1,0 +1,67 @@
+body{ 
+    margin: Opx; 
+    padding: Opx;
+    background-color: rgb(145, 158, 163);
+}
+button{
+    min-width: 120px;
+    height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: .1px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px #f7f7f7;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #f7f7f7;
+    color: rgb(161,146,54);
+    font-weight: bold;
+    box-shadow: 0 0 0 2px rgb(161,146,54);
+    letter-spacing: 1.1px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+button :active{
+    transform: scale(1);
+}
+#navbar{ 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 80px; 
+    z-index: 999; 
+    background-color: #313131; 
+    position: fixed;
+}
+#navbar #nav{ 
+    float: right; 
+    padding-top: 15px; 
+}
+#logo{
+    position: fixed;
+    height: 10%;
+    width: 10%;
+    margin: 5px;
+}
+button.active{
+    transform: scale(1.1);
+    background-color: #f7f7f7;
+    color: rgb(161,146,54);
+    font-weight: bold;
+    box-shadow: 0 0 0 2px rgb(161,146,54);
+    letter-spacing: 1.1px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+video{
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,0 +1,85 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+  overflow: scroll;
+}
+div.header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+}
+ul {
+  margin-top: 0px;
+  margin-left: 390px;
+}
+li.header {
+  display: inline-block;
+  padding-left: 11%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 15px;
+}
+li.header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+li.header a:hover {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+video {
+  width: 100%;
+}
+h1.headings {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+p.text {
+  color: black;
+  text-align: center;
+  margin: 2%;
+}
+img.arrow {
+  float: right;
+  width: 1.7%;
+}
+div.footer {
+  background-color: white;
+}
+img.netflix {
+  width: 100px;
+  height: 50px;
+  margin-top: 1%;
+}
+img.side {
+  width: 300px;
+  height: 250px;
+}
+table,
+td {
+  text-align: center;
+  border: 2px solid white;
+}
+iframe {
+  width: 100%;
+  height: 1000px;
+}
+.picture {
+  background-image: url("Background (2).jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p.text1 {
+  color: white;
+  text-align: center;
+  margin: 2%;
+}
+.picture1 {
+  background-image: url("Background (1).jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
