@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  width: 100px;
+  height: 50px;
+  display: inline;
+  border: 2px white solid;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  margin-left: 15px;
+  filter: drop-shadow(5px 5px 5px white);
+}
+textarea {
+  width: 250px;
+  margin-left: 15px;
+  background-color: black;
+  filter: drop-shadow(2px 2px 5px white);
+  color: white;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+  transition: 1000ms;
+  filter: drop-shadow(-5px -5px 5px white);
+}
+header {
+  border-bottom: 2px solid white;
+  color: white;
+  margin-bottom: 16%;
+}
+textarea:hover {
+  background-color: white;
+  filter: drop-shadow(-2px -2px 5px white);
+  transition: 1000ms;
+  color: black;
+}
+p:hover {
+  filter: drop-shadow(-2px -2px 5px white);
+  transition: 1000ms;
+}
+p {
+  filter: drop-shadow(2px 2px 5px white);
+}
