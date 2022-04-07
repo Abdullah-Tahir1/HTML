@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Lecture-13.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <center>
+        <br />
+        <label>Amount</label> <br /><br />
+        <input
+          type="number"
+          placeholder="Enter Amount"
+          oninput="VatConverter(this.value)"
+          onchange="VatConverter(this.value)"
+        />
+        <p>Vat5%: <span id="vat5"></span></p>
+        <br />
+        <p>Vat 10%: <span id="vat10"></span></p>
+      </center>
+    </div>
+  </body>
+  <script src="Lecture-13.js"></script>
+</html>
