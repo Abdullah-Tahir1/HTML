@@ -1,0 +1,113 @@
+html {
+  background-image: url("Image/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#Heading {
+  text-align: center;
+  background-color: white;
+  color: #e72f52;
+  font-family: "Arial Rounded MT";
+  font-size: 110%;
+  margin-bottom: 1%;
+  padding: 0.1%;
+  margin-right: 27%;
+  margin-left: 2%;
+}
+.justify {
+  margin-left: 50%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 22%;
+  padding: 1%;
+  margin: 0% 0% 2% 2%;
+}
+button:hover {
+  background-color: #e72f52;
+  color: white;
+  transform: scale(1.1);
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  transition: 200ms;
+  animation-name: Transition;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes Transition {
+  0% {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  50% {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+  }
+  100% {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
+b {
+  font-weight: 900;
+}
+#Header {
+  float: left;
+  color: white;
+  background-color: #e72f52;
+}
+img {
+  width: 15%;
+  padding-top: 5px;
+}
+
+#say-it {
+  width: 7%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+textarea {
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  float: left;
+  font-size: xx-large;
+  padding: 2%;
+}
+.input {
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.arrow {
+  float: right;
+  margin-right: 13.5%;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 100px;
+  background-color: white;
+  border-radius: 60px;
+  margin-left: 5px;
+  color: black;
+}
+li:hover {
+  background-color: black;
+  color: white;
+}
