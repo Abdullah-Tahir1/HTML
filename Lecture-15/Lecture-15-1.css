@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000000;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 140px;
+  background: #00ffff;
+  font-size: 15px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.button:hover {
+  cursor: pointer;
+  background: #03fefe;
+  box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000,
+    0 0 150px #ffc000;
+}
